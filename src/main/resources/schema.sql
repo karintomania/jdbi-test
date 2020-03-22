@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS TBL_EMPLOYEES;
+  
+CREATE TABLE TBL_EMPLOYEES (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  first_name VARCHAR(250) NOT NULL,
+  last_name VARCHAR(250) NOT NULL
+);
+
+INSERT INTO TBL_EMPLOYEES (first_name, last_name) VALUES ('tarou','satou');
+INSERT INTO TBL_EMPLOYEES (first_name, last_name) VALUES ('jirou','suzuki');
